@@ -4,5 +4,6 @@
     "classifications": [ "Common", "Console" ],
     "identity": "com.zhusmelb.NewTemplate.Library",
     "name": "NetCore library with test project",
-    "shortName": "zhusLibrary"
+    "shortName": "yzlib",
+    "sourceName": "ZhusLib"
   }
