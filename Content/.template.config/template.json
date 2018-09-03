@@ -3,8 +3,8 @@
     "author": "Yu Zhu",
     "classifications": [ "Common", "Console" ],
     "identity": "com.zhusmelb.NewTemplate.Library",
-    "name": "NetCore library with test project",
-    "shortName": "yzlib",
+    "name": "NetCore project with unit test",
+    "shortName": "yzcproj",
     "tags": {
       "language": "C#",
       "type": "project"
@@ -13,7 +13,7 @@
     "preferNameDirectory": true,
 
     "symbols": {
-      "projectType": {
+      "ProjectType": {
           "type": "parameter",
           "defaultValue": "Library",
           "replaces": "yz.ProjectType"

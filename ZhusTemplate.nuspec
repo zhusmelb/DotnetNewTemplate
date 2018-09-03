@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>com.zhusmelb.Template.Library</id>
+    <id>com.zhusmelb.Template.Project</id>
     <version>0.1.0</version>
     <description>
       dotnet new template for creating a netcore library and its test project.
