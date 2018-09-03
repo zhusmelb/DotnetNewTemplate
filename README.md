@@ -6,11 +6,11 @@ This is a template for .NET Core CLI `dotnet new`. It creates a solution in whic
 ---
 To install the template, open a command prompt and type:
 ```
-$ dotnet new -i com.zhusmelb.Template.Library
+$ dotnet new -i com.zhusmelb.Template.Project
 ```
 To uninstall the template, type:
 ```
-$ dotnet new -u com.zhusmelb.Template.Library
+$ dotnet new -u com.zhusmelb.Template.Porject
 ```
 ## Usage
 ---
