@@ -14,9 +14,28 @@
 
     "symbols": {
       "ProjectType": {
-          "type": "parameter",
-          "defaultValue": "Library",
-          "replaces": "yz.ProjectType"
+        "type": "parameter",
+        "defaultValue": "Library",
+        "replaces": "yz.ProjectType"
+      },
+      "TestProject": {
+        "type": "parameter",
+        "datatype": "bool",
+        "defaultValue": "true"
+      },
+      "IsExe": {
+        "type": "computed",
+        "value": "(ProjectType == \"Exe\")"
       }
-    }
+    },
+    "sources": [
+      {
+        "modifiers": [
+          {
+            "condition": "!TestProject",
+            "exclude": [ "ZhusLib.Test/**/*" ]
+          }
+        ]
+      }
+    ]
   }

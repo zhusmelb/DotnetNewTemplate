@@ -27,3 +27,7 @@ This template supports creating both Exe or Library project, use `-P|--ProjectTy
 ```
 $ dotnet new yzproj -n MyProj -o MyProj -P [Exe|Library]
 ```
+This template includes an unit test project use NUnit 3.0 by default. If you don't want the test project, use the following:
+```
+$ dotnet new yzproj -n MyProj -o MyProj -T false
+```
