@@ -4,7 +4,7 @@
     "classifications": [ "Common", "Console" ],
     "identity": "com.zhusmelb.NewTemplate.Library",
     "name": "NetCore project with unit test",
-    "shortName": "yzcproj",
+    "shortName": "yzproj",
     "tags": {
       "language": "C#",
       "type": "project"

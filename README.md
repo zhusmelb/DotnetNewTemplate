@@ -17,13 +17,13 @@ $ dotnet new -u com.zhusmelb.Template.Library
 To create a new project with unit test:
 ```
 $ mkdir MyProj && cd MyProj
-$ dotnet new yzcproj
+$ dotnet new yzproj
 ```
 Another way to create a project with unit test is:
 ```
-$ dotnet new yzcproj -n MyProj -o MyProj
+$ dotnet new yzproj -n MyProj -o MyProj
 ```
 This template supports creating both Exe or Library project, use `-P|--ProjectType' paramter to specify which type of project to create. You can sepcify either "Exe" or "Library" as argument.
 ```
-$ dotnet new yzcproj -n MyProj -o MyProj -P [Exe|Library]
+$ dotnet new yzproj -n MyProj -o MyProj -P [Exe|Library]
 ```
