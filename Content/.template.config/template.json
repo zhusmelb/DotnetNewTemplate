@@ -5,5 +5,18 @@
     "identity": "com.zhusmelb.NewTemplate.Library",
     "name": "NetCore library with test project",
     "shortName": "yzlib",
-    "sourceName": "ZhusLib"
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "ZhusLib",
+    "preferNameDirectory": true,
+
+    "symbols": {
+      "projectType": {
+          "type": "parameter",
+          "defaultValue": "Library",
+          "replaces": "yz.ProjectType"
+      }
+    }
   }
