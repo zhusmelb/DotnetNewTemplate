@@ -1,0 +1,4 @@
+language: csharp
+mono: latest
+install: true
+script: nuget pack ./ZhusTemplate.nuspec
