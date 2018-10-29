@@ -1,9 +1,9 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Yu Zhu",
-    "classifications": [ "Common", "Console" ],
+    "classifications": [ "Common", "Console", "Library" ],
     "identity": "com.zhusmelb.NewTemplate.Library",
-    "name": "NetCore project with unit test",
+    "name": ".NET Core project with unit test",
     "shortName": "yzproj",
     "tags": {
       "language": "C#",
