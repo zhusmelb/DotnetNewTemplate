@@ -5,7 +5,7 @@
     <version>1.0.6</version>
     <title>.NET Core CLI project template</title>
     <description>
-      dotnet new template for creating a netcore project with separated unit test project.
+      dotnet new template for creating a .NET Core project with optional unit test project.
     </description>
     <authors>Yu Zhu</authors>
     <copyright>Copyright 2018 Yu Zhu</copyright>
