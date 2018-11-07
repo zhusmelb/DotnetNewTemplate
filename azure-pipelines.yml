@@ -7,6 +7,11 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
+- task: NuGetCommand@2
+  inputs:
+    command: pack
+    arugments: ./ZhusTemplate.nuspec
+    
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
