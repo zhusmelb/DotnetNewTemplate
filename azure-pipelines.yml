@@ -7,8 +7,13 @@ pool:
   vmImage: 'vs2017-win2016'
 
 steps:
-- task: PowerShell@2
+- task: NuGetToolInstaller@0
+  inputs:
+    displayName: 'Download compatible Nuget'
+    versionSpec: '4.8.1'
+- task: NuGetCommand@2
   inputs:
     displayName: 'Pack the template with NuGet'
-    targetType: 'filePath'
-    filePath: ./Builds/build.ps1
+    command: 'pack'
+    arguments: './src/ZhuTemplate.nuspec'
+    
