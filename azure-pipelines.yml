@@ -15,5 +15,6 @@ steps:
   inputs:
     displayName: 'Pack the template with NuGet'
     command: 'pack'
-    arguments: './src/ZhusTemplate.nuspec'
+    pacakgesToPack: './src/ZhusTemplate.nuspec'
+    packDestination: '$(Build.ArtifactStagingDirectory)'
     
