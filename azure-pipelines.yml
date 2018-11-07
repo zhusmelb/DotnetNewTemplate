@@ -15,5 +15,5 @@ steps:
   inputs:
     displayName: 'Pack the template with NuGet'
     command: 'pack'
-    arguments: './src/ZhuTemplate.nuspec'
+    arguments: './src/ZhusTemplate.nuspec'
     
