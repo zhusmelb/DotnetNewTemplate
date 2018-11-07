@@ -7,8 +7,8 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- task: NuGetCommand@2
+- task: PowerShell@2
   inputs:
     displayName: 'Pack the template with NuGet'
-    command: pack
-    arugments: ./ZhusTemplate.nuspec
+    targetType: 'filePath'
+    filePath: ./Builds/build.ps1
