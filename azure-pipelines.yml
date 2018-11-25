@@ -17,4 +17,7 @@ steps:
     command: 'pack'
     searchPatternPack: '**/*.nuspec'
     packDestination: '$(Build.ArtifactStagingDirectory)'
-    
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: '_DotnetNewTemplate'
