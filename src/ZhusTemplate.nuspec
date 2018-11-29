@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>com.zhusmelb.Template.Project</id>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <title>.NET Core CLI project template</title>
     <description>
       dotnet new template for creating a .NET Core project with optional unit test project.
