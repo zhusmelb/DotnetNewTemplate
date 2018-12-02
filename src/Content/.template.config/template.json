@@ -32,6 +32,11 @@
       "IsExe": {
         "type": "computed",
         "value": "(ProjectType == \"Exe\")"
+      },
+      "SkipRestore": {
+        "type": "parameter",
+        "datatype": "bool",
+        "defaultValue": "false"
       }
     },
     "sources": [
@@ -42,6 +47,22 @@
             "exclude": [ "ZhusLib.Test/**/*" ]
           }
         ]
+      }
+    ],
+    "primaryOutputs": [
+      {
+        "path": "ZhusLib.sln"
+      }
+    ],
+    "postActions": [
+      {
+        "condition": "(!SkipRestore)",
+        "description": "Restore referenced packages required by the projects.",
+        "manualInstructions": [
+          {"text": "Run 'dotnet restore'"}
+        ],
+        "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+        "continueOnError": true
       }
     ]
   }
