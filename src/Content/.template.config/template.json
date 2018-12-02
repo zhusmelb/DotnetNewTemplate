@@ -23,6 +23,12 @@
         "datatype": "bool",
         "defaultValue": "true"
       },
+      "Packable": {
+        "type": "parameter",
+        "description": "If the project should packed to a nuget package",
+        "datatype": "bool",
+        "defaultValue": "false"
+      },
       "IsExe": {
         "type": "computed",
         "value": "(ProjectType == \"Exe\")"
