@@ -14,7 +14,7 @@
   </ItemGroup>
   
   <!--#if (Packable) -->
-  <PropertyGroup Condition="'$(Packable)' == 'true'">
+  <PropertyGroup>
     <!-- 
       For a full list of properties, see
       https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties

@@ -31,3 +31,11 @@ This template includes an unit test project use NUnit 3.0 by default. If you don
 ```
 $ dotnet new yzproj -n MyProj -o MyProj -T false
 ```
+Once a new solution is created, `dotnet restore` is called by default to restore all required pakcages. Use -S|--SkipRestore to override this behavior:
+```
+$ dotnet new yzproj -n MyProj -S
+```
+If you are planning to pack the library project into a nuget pakcage, use `-Pa` argument:
+```
+$ dotnet new yzproj -n MyProj -Pa
+```
